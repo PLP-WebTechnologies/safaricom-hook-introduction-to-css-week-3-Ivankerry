@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    
+    <!-- Part 2: Internal CSS -->
+    <style>
+        /* Internal CSS to style elements */
+        
+        /* Part 1: CSS Basics - Selectors, Properties, and Values */
+        h1, h2 {
+            font-size: 24px; /* Element Selector: Change font size of all headings */
+        }
+
+        .section {
+            background-color: lightblue; /* Class Selector: Apply background color to sections */
+        }
+
+        #main-title {
+            border: 2px solid black; /* ID Selector: Add border to the element with unique ID */
+        }
+
+        /* Internal CSS for additional styling */
+        h2 {
+            font-family: Arial, sans-serif; /* Change font family */
+            color: darkblue; /* Change text color */
+        }
+
+        p {
+            font-size: 16px; /* Change font size */
+            line-height: 1.5; /* Set line height */
+        }
+
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+        }
+    </style>
+</head>
+<body>
+    <!-- Part 1: HTML Elements -->
+    <h1 id="main-title">Welcome to My Web Page</h1>
+    
+    <!-- Inline CSS: Change text color -->
+    <p style="color: red;">This is an inline styled paragraph.</p>
+    
+    <div class="section">
+        <h2>About Me</h2>
+        <p>This is a paragraph about me.</p>
+    </div>
+    
+    <div class="section">
+        <h2>My Hobbies</h2>
+        <p>I enjoy coding, reading, and hiking.</p>
+    </div>
+    
+    <!-- Part 3: Simple Card Component -->
+    <div class="card" style="background-color: white; border: 1px solid #ccc; padding: 15px; margin: 20px; border-radius: 5px;">
+        <h3>Card Title</h3>
+        <p>This is a description of the card. It contains some information about the topic.</p>
+    </div>
+
+</body>
+</html>
